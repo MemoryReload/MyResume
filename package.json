@@ -7,8 +7,7 @@
     "start": "gulp clean && gulp",
     "pdf": "gulp pdf",
     "dev": "gulp dev",
-    "deploy":
-      "gulp pdf && gulp deploy && git add -A && git commit -m 'update resume' && git push origin master"
+    "deploy": "gulp pdf && gulp deploy && git add -A && git commit -m 'update resume' && git push origin master"
   },
   "author": "Lxxyx",
   "license": "MIT",
@@ -20,7 +19,9 @@
     "gulp-jade": "^1.1.0",
     "gulp-sass": "3.1.0",
     "jade": "^1.11.0",
-    "puppeteer": "*",
+    "node-sass": "^4.7.2",
+    "npm-check": "^5.5.2",
+    "puppeteer": "^1.1.1",
     "rimraf-promise": "^2.0.0"
   },
   "devDependencies": {
