@@ -73,7 +73,7 @@ gulp.task('copy', () => {
   src2dist('iconfont')
   src2dist('img')
   src2dist('pdf')
-  gulp.src('./CNAME').pipe(gulp.dest('./dist'))
+  // gulp.src('./CNAME').pipe(gulp.dest('./dist'))
 })
 
 //清理目标目录
