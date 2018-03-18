@@ -63,7 +63,7 @@
       "content": {
         "position": "iOS开发工程师",
         "tasks": [
-          "基于`ASIHTTPRequest`和`Mantle`三方框架，访问服务器`RESTful HTTP服务`接口，实现应用的网络数据请求解析",
+          "基于`ASIHTTPRequest`和`Mantle`三方框架，访问服务器`RESTful API`服务接口，实现应用的网络数据请求解析",
           "基于`NSOperationQueue`实现漫画批量下载及离线阅读",
           "基于`CoreAnimation`和`Quartz 2D`框架，实现浏览漫画时的多种换页UI动画特效",
           "基于`ZXing`和`友盟分享`三方框架实现漫画二维码分享到其它社交软件",
@@ -93,7 +93,7 @@
       "content": {
         "position": "iOS开发工程师",
         "tasks": [
-          "基于`AFNetworking`和`Mantle`三方框架，访问服务器`RESTful HTTP服务`接口，实现应用的网络数据请求解析",
+          "基于`AFNetworking`和`Mantle`三方框架，访问服务器`RESTful API`服务接口，实现应用的网络数据请求解析",
           "实现会议流程的发布，审批",
           "基于`EventKitUI`框架,实现在日历应用中添加会议提醒",
           "基于`CoreLocation`框架，实现远程推送提醒会议签到，以及会议实地签到功能",
@@ -109,7 +109,7 @@
       "content": {
         "position": "iOS开发工程师",
         "tasks": [
-          "基于`AFNetworking`和`Mantle`三方框架，访问服务器`RESTful HTTP服务`接口，实现应用的网络数据请求解析",
+          "基于`AFNetworking`和`Mantle`三方框架，访问服务器`RESTful API`服务接口，实现应用的网络数据请求解析",
           "实现巡店任务的下发、转派，完成情况数据统计及展示",
           "实现巡店任务提交流程中，门店图片、位置信息采集上传，以及在线答题考试",
           "基于`Zbar`三方框架，实现连续扫描卡片条码上传服务器，并统计显示库存情况的功能，减少供应商在向分销点批发卡片时的统计工作量，提高工作效率",
@@ -124,7 +124,7 @@
       "content": {
         "position": "iOS开发工程师",
         "tasks": [
-          "基于`AFNetworking`和`Mantle`三方框架，访问服务器`RESTful HTTP服务`接口，实现应用的网络数据请求解析",
+          "基于`AFNetworking`和`Mantle`三方框架，访问服务器`RESTful API`服务接口，实现应用的网络数据请求解析",
           "实现话费套餐商城商品流式布局展示功能、比价功能，商品推荐",
           "实现业务员为客户开户、套餐办理功能，包括蓝牙外设身份证读取、用户信息填写等",
           "实现业务员销售业绩数据查询展示",
@@ -140,7 +140,7 @@
       "content": {
         "position": "iOS开发工程师",
         "tasks": [
-          "基于`AFNetworking`和`Mantle`三方框架，访问服务器`RESTful HTTP服务`接口，实现应用的网络数据请求解析",
+          "基于`AFNetworking`和`Mantle`三方框架，访问服务器`RESTful API`服务接口，实现应用的网络数据请求解析",
           "基于`OAuth 2.0`标准，实现对三方应用的授权、及接入支持，可以从应用中跳转并授权登陆三方应用。在此基础上开发应用商店功能，统一管理其它三方应用的下载、更新和打开功能，提供统一的功能入口",
           "基于蘑菇街开源项目TeamTalk开发`即时通信(IM)`模块，并集成到应用中",
           "实现工作圈功能，提供用户发送即时动态，评论，话题讨论等社区功能" ,
@@ -156,7 +156,7 @@
       "content": {
         "position": "iOS开发工程师",
         "tasks": [
-          "基于`AFNetworking`和`Mantle`三方框架，访问服务器`RESTful HTTP服务`接口，实现应用的网络数据请求解析",
+          "基于`AFNetworking`和`Mantle`三方框架，访问服务器`RESTful API`服务接口，实现应用的网络数据请求解析",
           "基于`UIKit`,`CoreLocation`,`CoreAnimation`等基础框架，实现完全自定义的旅游手绘地图、景点设施标注、用户标注，路线绘制等",
           "基于`CoreLocation`和`AVFoundation`等框架，实现智能语音导览，当用户到达对应的景点时应用自动播放语音解说，增强用户的游览体验",
           "独立开发，代码维护，测试"
@@ -185,23 +185,26 @@
       "skill": [{
         "name": "iOS原生应用开发",
         "description": [
-          "日常使用 `TypeScript` 完成前后端项目",
-          "熟悉 jQuery/Bootstrap 等常见框架类库的使用",
-          "熟练使用 `Gulp , Webpack , Rollup` 等代码构建工具"
+          "扎实的`C`、`C++`语言基础，熟练掌握`Objective-C`语言，同时熟悉`Swift`语言",
+          "掌握`OC Runtime`机制、`ARC内存管理`机制，熟悉`MVC`及`MVVM`等常用设计模式",
+          "熟悉`CocoaTouch`框架层次结构，熟练使用`UIKit`和`Foundation`等常用框架进行业务编码",
+          "理解线程、锁及操作队列的概念，熟练使用`NSOperationQueue`以及`GCD(大中枢派发)`进行多线程编码",
+          "熟悉常用三方开源库(例如：`AFNetworking`、`Mantle`、`Masonry`等)的使用",
+          "熟练使用`LLDB调试器`进行调试，使用`XCTestFramework`编写单元测试,",
+          "熟悉性能分析工具`Instruments`，网络分析工具`Charles`、`WireShark`，以及`Xcode Command Line Tools`的使用"
         ]
       },{
         "name": "iOS Hybrid 应用开发",
         "description": [
-          "熟练使用 `React Native/Weex` 开发 App",
-          "编写原生 `React Native/Weex` 原生插件"
+          "熟练使用`React Native/PhoneGap`框架开发 App",
+          "编写`React Native/PhoneGap`框架原生插件"
         ]
       }, {
         "name": "iOS web 应用开发",
         "description": [
-          "熟悉 JavaScript ，`代码编写遵守规范`",
-          "了解` JavaScript 面向对象知识`与 `MV*` 模式",
-          "学习 ECMAScript 规范，不断实践并在新项目中应用，`熟练使用 ES6/7 开发项目 `",
-          "熟悉 JavaScript 异步编程，`掌握常见的异步解决方案`"
+          "掌握`Web开发HTML5+CSS3`的基础知识",
+          "熟悉`JavaScript代码编写遵守规范`, 理解`JavaScript基于原型继承的面向对象开发模式`,了解`JavaScript异步编程`，掌握常见的异步解决方案",
+          "学习`Angular`、`React`等前端JavaScript开发框架，及`grunt`、`gulp`、`webpack`等Web开发工具"
         ]
       }]
     },
@@ -217,9 +220,8 @@
       }, {
         "name": "其它知识",
         "description": [
-          "熟悉` HTTP 常见知识`,对 HTTP2/WebSocket 等新知识有所了解",
-          "日常使用 `Docker` 完成项目的构建与部署",
-          "完成 `Nginx` 的配置，实现反向代理等功能"
+          "熟悉` HTTP 常见知识`,对 `WebSocket` 等新知识有所了解",
+          "了解`Apache及Ngix服务器部分配置`的相关知识"
         ]
       }]
     },
@@ -228,17 +230,19 @@
       "skill": [{
         "name": "计算机基础",
         "description": [
-          "",
-          "",
-          "",
-          ""
+          "了解`操作系统原理`，熟悉`Mac OS`和`Linux/Unix操作系统`环境，能在环境下进行开发工作",
+          "了解`TCP/IP网络协议`及工作原理，熟悉`POSIX Socket编程接口`，掌握一定的`Unix/Linux网络编程`知识",
+          "了解`HTTP协议`，对`RESTful API`和`WebService`有一定的了解",
+          "了解`关系型数据(SQLite、MySQL)`，以及`NoSQL数据库(Redis、MongoDB)`的基本操作",
+          "掌握一定的`Shell编程`，以及`Python编程`知识，能够运用其编写自动化脚本"
         ]
       }, {
         "name": "工具使用",
         "description": [
-          "",
-          "",
-          ""
+          "Mac OS集成开发工具`Xcode`",
+          "中心式版本控制工具`Subversion`，以及分布式版本控制工具`Git`",
+          "自动化测试工具`Appium`",
+          "CI(持续集成)工具`Genkins`"
         ]
       }]
     }
