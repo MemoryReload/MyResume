@@ -203,7 +203,7 @@
         "name": "iOS web 应用开发",
         "description": [
           "掌握`Web开发HTML5+CSS3`的基础知识",
-          "熟悉`JavaScript代码编写遵守规范`, 理解`JavaScript基于原型继承的面向对象开发模式`,了解`JavaScript异步编程`，掌握常见的异步解决方案",
+          "熟悉`JavaScript代码编写规范`, 理解`JavaScript基于原型继承的面向对象开发模式`,了解`JavaScript异步编程`，掌握常见的异步解决方案",
           "学习`Angular`、`React`等前端JavaScript开发框架，及`grunt`、`gulp`、`webpack`等Web开发工具"
         ]
       }]
@@ -242,7 +242,7 @@
           "Mac OS集成开发工具`Xcode`",
           "中心式版本控制工具`Subversion`，以及分布式版本控制工具`Git`",
           "自动化测试工具`Appium`",
-          "CI(持续集成)工具`Genkins`"
+          "CI(持续集成)工具`Jenkins`"
         ]
       }]
     }
