@@ -95,7 +95,7 @@ gulp.task('webserver', function () {
   connect.server({
     root: './dist',
     livereload: true,
-    port: 8080
+    port: 8081
   })
 })
 
@@ -107,7 +107,7 @@ gulp.task('dev', ['default', 'json2jade:watch', 'sass:watch', 'webserver'])
 
 //生成pdf任务：执行默认任务，并且启动web服务，之后截图生成pdf
 gulp.task('pdf', ['default', 'webserver'], async () => {
-  await generatePdf('http://localhost:8080')
+  await generatePdf('http://localhost:8081')
   connect.serverClose()
   process.exit(0)
 })
